@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GoogleSignin" customModule="Saving_Life_Final" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rho-2z-IcS" customClass="PMSuperButton" customModule="PMSuperButton">
+                    <rect key="frame" x="58" y="788" width="298" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Rho-2z-IcS" secondAttribute="height" multiplier="1:1" constant="234" id="5id-ER-Req"/>
+                        <constraint firstAttribute="height" constant="64" id="pKu-tX-CKs"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_google_signin_dark_focus_web"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="ripple" value="YES"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="rippleColor">
+                            <color key="value" red="0.34702643900601149" green="0.55001657782784208" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rippleSpeed">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="ggBTN:" destination="-1" eventType="touchUpInside" id="yjZ-u6-JHk"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIe-Gy-fya">
+                    <rect key="frame" x="1" y="44" width="412" height="368"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="yIe-Gy-fya" secondAttribute="height" multiplier="1:1" constant="44" id="ow8-Ij-8Z9"/>
+                    </constraints>
+                    <string key="text">ล็อคอินด้วย 
+Google
+Account
+จัดเก็บข้อมูลของ
+ท่านให้ปลอดภัย</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.38668811320000002" green="0.79304122919999998" blue="0.98248833420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yIe-Gy-fya" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="4Ur-5E-qd0"/>
+                <constraint firstItem="Rho-2z-IcS" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-58" id="GsJ-WB-L63"/>
+                <constraint firstItem="Rho-2z-IcS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="58" id="Itl-Bi-7nL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Rho-2z-IcS" secondAttribute="bottom" constant="10" id="OtU-hK-luu"/>
+                <constraint firstItem="yIe-Gy-fya" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="1" id="XtM-SQ-K1o"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yIe-Gy-fya" secondAttribute="trailing" constant="1" id="ZCF-Rq-tyt"/>
+                <constraint firstItem="yIe-Gy-fya" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gHP-bd-0Kz"/>
+                <constraint firstItem="Rho-2z-IcS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zi0-kk-aSO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="109.15178571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_google_signin_dark_focus_web" width="191" height="46"/>
+    </resources>
+</document>
