@@ -21,10 +21,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUG-t5-UMH" customClass="GradientView" customModule="Saving_Life_Final" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <rect key="frame" x="0.0" y="-0.5" width="414.5" height="896.5"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fI-ib-ugI">
-                            <rect key="frame" x="66" y="293" width="282" height="351"/>
+                            <rect key="frame" x="66" y="293" width="282.5" height="351.5"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="4fI-ib-ugI" secondAttribute="height" multiplier="1:1" constant="-69" id="Zcm-x5-h3o"/>
                             </constraints>
@@ -40,7 +40,7 @@ Saving Life
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ui-rW-g5s" customClass="DesignableView" customModule="Saving_Life_Final" customModuleProvider="target">
-                            <rect key="frame" x="70" y="625" width="274" height="101"/>
+                            <rect key="frame" x="70.5" y="625.5" width="274" height="101"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhV-CM-GCz" customClass="PMSuperButton" customModule="PMSuperButton">
                                     <rect key="frame" x="1" y="0.0" width="273" height="100"/>
@@ -154,11 +154,9 @@ Saving Life
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="iUG-t5-UMH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="1bB-k7-QYQ"/>
-                <constraint firstItem="iUG-t5-UMH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6WI-z4-bfi"/>
-                <constraint firstItem="iUG-t5-UMH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7Kf-ux-Jw5"/>
-                <constraint firstItem="K13-Sl-scC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7vx-uc-DGO"/>
+                <constraint firstItem="K13-Sl-scC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="67" id="K7Z-9Z-3hr"/>
                 <constraint firstItem="iUG-t5-UMH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XXB-W2-jy0"/>
-                <constraint firstItem="iUG-t5-UMH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kpb-8K-f3p"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="K13-Sl-scC" secondAttribute="trailing" constant="67" id="c82-dY-vfh"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="iUG-t5-UMH" secondAttribute="bottom" constant="-34" id="lIY-If-H32"/>
                 <constraint firstItem="K13-Sl-scC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="n8B-1h-39q"/>
             </constraints>

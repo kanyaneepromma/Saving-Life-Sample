@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06024921226CEB7900EF0701 /* naviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0602491F226CEB7900EF0701 /* naviView.swift */; };
+		06024922226CEB7900EF0701 /* naviView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06024920226CEB7900EF0701 /* naviView.xib */; };
+		06024925226CEF4E00EF0701 /* viewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06024923226CEF4E00EF0701 /* viewData.swift */; };
+		06024926226CEF4E00EF0701 /* viewData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06024924226CEF4E00EF0701 /* viewData.xib */; };
+		06024928226CF04B00EF0701 /* MiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06024927226CF04B00EF0701 /* MiddleView.swift */; };
 		062475BB226B3EDB000FF619 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062475BA226B3EDB000FF619 /* WeatherGetter.swift */; };
 		062475C4226B75A1000FF619 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062475C3226B75A1000FF619 /* Weather.swift */; };
 		063C689622487C1D00F298AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063C689522487C1D00F298AD /* AppDelegate.swift */; };
@@ -15,6 +20,16 @@
 		063C68A322487C1F00F298AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063C68A122487C1F00F298AD /* LaunchScreen.storyboard */; };
 		063C68AE22487C2000F298AD /* Saving_Life_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063C68AD22487C2000F298AD /* Saving_Life_FinalTests.swift */; };
 		063C68B922487C2000F298AD /* Saving_Life_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063C68B822487C2000F298AD /* Saving_Life_FinalUITests.swift */; };
+		063D7894226BCFB100603A31 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063D7892226BCFB100603A31 /* Setting.swift */; };
+		063D7895226BCFB100603A31 /* Setting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063D7893226BCFB100603A31 /* Setting.xib */; };
+		063D7898226BCFCF00603A31 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063D7896226BCFCF00603A31 /* QRView.swift */; };
+		063D7899226BCFCF00603A31 /* QRView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063D7897226BCFCF00603A31 /* QRView.xib */; };
+		063D789C226BCFF800603A31 /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063D789A226BCFF800603A31 /* Permission.swift */; };
+		063D789D226BCFF800603A31 /* Permission.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063D789B226BCFF800603A31 /* Permission.xib */; };
+		063D789F226BDE4300603A31 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 063D789E226BDE4300603A31 /* Fonts */; };
+		063D78B5226C7FBD00603A31 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063D78B4226C7FBD00603A31 /* HealthKit.framework */; };
+		063D78B9226CCFE600603A31 /* CareHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063D78B7226CCFE600603A31 /* CareHome.swift */; };
+		063D78BC226CE05D00603A31 /* CareHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063D78BB226CE05D00603A31 /* CareHome.xib */; };
 		065B36ED224B3A3800B84F73 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B36EC224B3A3800B84F73 /* DesignView.swift */; };
 		065B36F0224B4CD600B84F73 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B36EF224B4CD600B84F73 /* DesignButton.swift */; };
 		065B36F5224CCEF900B84F73 /* GoogleSignin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B36F3224CCEF900B84F73 /* GoogleSignin.swift */; };
@@ -31,6 +46,8 @@
 		06D5DBB72255E3850059897F /* SeniorHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D5DBB52255E3850059897F /* SeniorHome.xib */; };
 		06DAD5E42256FFD00058BDE5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAD5E32256FFD00058BDE5 /* API.swift */; };
 		06DAD5E6225701650058BDE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06DAD5E5225701650058BDE5 /* GoogleService-Info.plist */; };
+		06FE610C226CF8F900565B13 /* CareSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE610A226CF8F900565B13 /* CareSetting.swift */; };
+		06FE610D226CF8F900565B13 /* CareSetting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FE610B226CF8F900565B13 /* CareSetting.xib */; };
 		6C4192E9CFDCD31791FBDE27 /* Pods_Saving_Life_Final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48A0D266144BFF1CF3AD53 /* Pods_Saving_Life_Final.framework */; };
 		BA146C995CBF58B77220F13F /* Pods_Saving_Life_FinalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84065F908E6221D4709220 /* Pods_Saving_Life_FinalUITests.framework */; };
 		C6B9F9948009E6F1C335A0F6 /* Pods_Saving_Life_FinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F41B204EFA5E3C21D1812E /* Pods_Saving_Life_FinalTests.framework */; };
@@ -54,7 +71,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		062475BA226B3EDB000FF619 /* WeatherGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherGetter.swift; path = ../Class/WeatherGetter.swift; sourceTree = "<group>"; };
+		0602491F226CEB7900EF0701 /* naviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naviView.swift; sourceTree = "<group>"; };
+		06024920226CEB7900EF0701 /* naviView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = naviView.xib; sourceTree = "<group>"; };
+		06024923226CEF4E00EF0701 /* viewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewData.swift; sourceTree = "<group>"; };
+		06024924226CEF4E00EF0701 /* viewData.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = viewData.xib; sourceTree = "<group>"; };
+		06024927226CF04B00EF0701 /* MiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleView.swift; sourceTree = "<group>"; };
+		062475BA226B3EDB000FF619 /* WeatherGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
 		062475C3226B75A1000FF619 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		063C689222487C1D00F298AD /* Saving Life Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saving Life Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		063C689522487C1D00F298AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +90,17 @@
 		063C68B422487C2000F298AD /* Saving Life FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Saving Life FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		063C68B822487C2000F298AD /* Saving_Life_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saving_Life_FinalUITests.swift; sourceTree = "<group>"; };
 		063C68BA22487C2000F298AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063D7892226BCFB100603A31 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Setting.swift; path = ../../View/Senior/Setting.swift; sourceTree = "<group>"; };
+		063D7893226BCFB100603A31 /* Setting.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Setting.xib; sourceTree = "<group>"; };
+		063D7896226BCFCF00603A31 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QRView.swift; path = ../../View/Senior/QRView.swift; sourceTree = "<group>"; };
+		063D7897226BCFCF00603A31 /* QRView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRView.xib; sourceTree = "<group>"; };
+		063D789A226BCFF800603A31 /* Permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Permission.swift; path = ../../View/Senior/Permission.swift; sourceTree = "<group>"; };
+		063D789B226BCFF800603A31 /* Permission.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Permission.xib; sourceTree = "<group>"; };
+		063D789E226BDE4300603A31 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		063D78B4226C7FBD00603A31 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		063D78B6226C7FBD00603A31 /* Saving Life Final.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Saving Life Final.entitlements"; sourceTree = "<group>"; };
+		063D78B7226CCFE600603A31 /* CareHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareHome.swift; sourceTree = "<group>"; };
+		063D78BB226CE05D00603A31 /* CareHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CareHome.xib; sourceTree = "<group>"; };
 		065B36EC224B3A3800B84F73 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
 		065B36EF224B4CD600B84F73 /* DesignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
 		065B36F3224CCEF900B84F73 /* GoogleSignin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignin.swift; sourceTree = "<group>"; };
@@ -86,6 +119,8 @@
 		06D5DBB52255E3850059897F /* SeniorHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeniorHome.xib; sourceTree = "<group>"; };
 		06DAD5E32256FFD00058BDE5 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		06DAD5E5225701650058BDE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06FE610A226CF8F900565B13 /* CareSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareSetting.swift; sourceTree = "<group>"; };
+		06FE610B226CF8F900565B13 /* CareSetting.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CareSetting.xib; sourceTree = "<group>"; };
 		0A84065F908E6221D4709220 /* Pods_Saving_Life_FinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saving_Life_FinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBE8E1809F8AF982CC76271 /* Pods-Saving Life FinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saving Life FinalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saving Life FinalTests/Pods-Saving Life FinalTests.release.xcconfig"; sourceTree = "<group>"; };
 		1E0F3A2D6A4678A7FE28EE30 /* Pods-Saving Life Final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saving Life Final.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C4192E9CFDCD31791FBDE27 /* Pods_Saving_Life_Final.framework in Frameworks */,
+				063D78B5226C7FBD00603A31 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +164,7 @@
 		063C688922487C1D00F298AD = {
 			isa = PBXGroup;
 			children = (
+				063D789E226BDE4300603A31 /* Fonts */,
 				063C689422487C1D00F298AD /* Saving Life Final */,
 				063C68AC22487C2000F298AD /* Saving Life FinalTests */,
 				063C68B722487C2000F298AD /* Saving Life FinalUITests */,
@@ -150,6 +187,8 @@
 		063C689422487C1D00F298AD /* Saving Life Final */ = {
 			isa = PBXGroup;
 			children = (
+				063D78B6226C7FBD00603A31 /* Saving Life Final.entitlements */,
+				06FE3188226D669400F5087F /* Trash */,
 				06B7B9A8226B7D11000C0BE6 /* Struct */,
 				065B36EE224B3A4600B84F73 /* Class */,
 				063C68CB22488BD300F298AD /* Controller */,
@@ -203,7 +242,6 @@
 				065B36F3224CCEF900B84F73 /* GoogleSignin.swift */,
 				068361862255A7DC009F3F05 /* Choice.swift */,
 				06B7B9AC226B7D77000C0BE6 /* Senior */,
-				062475BA226B3EDB000FF619 /* WeatherGetter.swift */,
 				066D47B322535117007D2CFF /* Care  */,
 			);
 			path = Controller;
@@ -223,6 +261,11 @@
 		066D47B322535117007D2CFF /* Care  */ = {
 			isa = PBXGroup;
 			children = (
+				06024927226CF04B00EF0701 /* MiddleView.swift */,
+				0602491F226CEB7900EF0701 /* naviView.swift */,
+				063D78B7226CCFE600603A31 /* CareHome.swift */,
+				06024923226CEF4E00EF0701 /* viewData.swift */,
+				06FE610A226CF8F900565B13 /* CareSetting.swift */,
 			);
 			path = "Care ";
 			sourceTree = "<group>";
@@ -230,6 +273,10 @@
 		0683618A2255A7E9009F3F05 /* Care */ = {
 			isa = PBXGroup;
 			children = (
+				06024920226CEB7900EF0701 /* naviView.xib */,
+				063D78BB226CE05D00603A31 /* CareHome.xib */,
+				06024924226CEF4E00EF0701 /* viewData.xib */,
+				06FE610B226CF8F900565B13 /* CareSetting.xib */,
 			);
 			path = Care;
 			sourceTree = "<group>";
@@ -238,7 +285,6 @@
 			isa = PBXGroup;
 			children = (
 				06B7B9A9226B7D47000C0BE6 /* Profile.swift */,
-				062475C3226B75A1000FF619 /* Weather.swift */,
 			);
 			path = Struct;
 			sourceTree = "<group>";
@@ -246,7 +292,10 @@
 		06B7B9AC226B7D77000C0BE6 /* Senior */ = {
 			isa = PBXGroup;
 			children = (
+				063D789A226BCFF800603A31 /* Permission.swift */,
 				06B7B9AF226B8394000C0BE6 /* SeniorHome.swift */,
+				063D7892226BCFB100603A31 /* Setting.swift */,
+				063D7896226BCFCF00603A31 /* QRView.swift */,
 			);
 			path = Senior;
 			sourceTree = "<group>";
@@ -254,14 +303,27 @@
 		06D5DBB32255E34F0059897F /* Senior */ = {
 			isa = PBXGroup;
 			children = (
+				063D789B226BCFF800603A31 /* Permission.xib */,
 				06D5DBB52255E3850059897F /* SeniorHome.xib */,
+				063D7893226BCFB100603A31 /* Setting.xib */,
+				063D7897226BCFCF00603A31 /* QRView.xib */,
 			);
 			path = Senior;
+			sourceTree = "<group>";
+		};
+		06FE3188226D669400F5087F /* Trash */ = {
+			isa = PBXGroup;
+			children = (
+				062475BA226B3EDB000FF619 /* WeatherGetter.swift */,
+				062475C3226B75A1000FF619 /* Weather.swift */,
+			);
+			path = Trash;
 			sourceTree = "<group>";
 		};
 		19164BD26995115B27C33298 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				063D78B4226C7FBD00603A31 /* HealthKit.framework */,
 				066D341E2257654E00E34B81 /* FirebaseStorage.framework */,
 				066D341B225764B800E34B81 /* Redbeard.framework */,
 				4F48A0D266144BFF1CF3AD53 /* Pods_Saving_Life_Final.framework */,
@@ -358,6 +420,20 @@
 				TargetAttributes = {
 					063C689122487C1D00F298AD = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 					063C68A822487C2000F298AD = {
 						CreatedOnToolsVersion = 10.1;
@@ -395,13 +471,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D5DBB72255E3850059897F /* SeniorHome.xib in Resources */,
+				063D7895226BCFB100603A31 /* Setting.xib in Resources */,
 				066D47AA22534632007D2CFF /* Welcome.xib in Resources */,
+				063D789F226BDE4300603A31 /* Fonts in Resources */,
 				065B36F6224CCEF900B84F73 /* GoogleSignin.xib in Resources */,
+				063D78BC226CE05D00603A31 /* CareHome.xib in Resources */,
 				06836185225372F8009F3F05 /* Input.xib in Resources */,
+				063D7899226BCFCF00603A31 /* QRView.xib in Resources */,
 				063C68A322487C1F00F298AD /* LaunchScreen.storyboard in Resources */,
+				06FE610D226CF8F900565B13 /* CareSetting.xib in Resources */,
 				06DAD5E6225701650058BDE5 /* GoogleService-Info.plist in Resources */,
+				063D789D226BCFF800603A31 /* Permission.xib in Resources */,
 				068361892255A7DC009F3F05 /* Choice.xib in Resources */,
+				06024922226CEB7900EF0701 /* naviView.xib in Resources */,
 				063C68A022487C1F00F298AD /* Assets.xcassets in Resources */,
+				06024926226CEF4E00EF0701 /* viewData.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,16 +599,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Saving Life Final/Pods-Saving Life Final-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EFQRCode/EFQRCode.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/JSSAlertView/JSSAlertView.framework",
-				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
-				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
-				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
-				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
-				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
-				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/Navigation-Toolbar/Navigation_Toolbar.framework",
 				"${BUILT_PRODUCTS_DIR}/PMSuperButton/PMSuperButton.framework",
 				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMPaperSwitch/RAMPaperSwitch.framework",
@@ -532,21 +612,19 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+				"${BUILT_PRODUCTS_DIR}/swift_qrcodejs/swift_qrcodejs.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFQRCode.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSSAlertView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Navigation_Toolbar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMSuperButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMPaperSwitch.framework",
@@ -554,6 +632,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/swift_qrcodejs.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -594,14 +674,22 @@
 				063C689E22487C1D00F298AD /* Saving_Life_Final.xcdatamodeld in Sources */,
 				06B7B9AA226B7D47000C0BE6 /* Profile.swift in Sources */,
 				062475C4226B75A1000FF619 /* Weather.swift in Sources */,
+				063D7898226BCFCF00603A31 /* QRView.swift in Sources */,
+				063D7894226BCFB100603A31 /* Setting.swift in Sources */,
+				06024921226CEB7900EF0701 /* naviView.swift in Sources */,
 				066D47AE22534E3C007D2CFF /* Gradient.swift in Sources */,
+				06FE610C226CF8F900565B13 /* CareSetting.swift in Sources */,
 				065B36F5224CCEF900B84F73 /* GoogleSignin.swift in Sources */,
+				063D78B9226CCFE600603A31 /* CareHome.swift in Sources */,
 				062475BB226B3EDB000FF619 /* WeatherGetter.swift in Sources */,
 				068361882255A7DC009F3F05 /* Choice.swift in Sources */,
 				06836184225372F8009F3F05 /* Input.swift in Sources */,
+				06024925226CEF4E00EF0701 /* viewData.swift in Sources */,
 				066D47A922534632007D2CFF /* Welcome.swift in Sources */,
 				06B7B9B0226B8394000C0BE6 /* SeniorHome.swift in Sources */,
 				06DAD5E42256FFD00058BDE5 /* API.swift in Sources */,
+				06024928226CF04B00EF0701 /* MiddleView.swift in Sources */,
+				063D789C226BCFF800603A31 /* Permission.swift in Sources */,
 				065B36F0224B4CD600B84F73 /* DesignButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -770,6 +858,7 @@
 			baseConfigurationReference = 1E0F3A2D6A4678A7FE28EE30 /* Pods-Saving Life Final.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Saving Life Final/Saving Life Final.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 263C4C5VW3;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -782,7 +871,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kanyanee.Saving-Life-Final";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kanyanee.Saving-Life-Final777";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -794,6 +883,7 @@
 			baseConfigurationReference = 54D1672F386D987A869DD375 /* Pods-Saving Life Final.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Saving Life Final/Saving Life Final.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 263C4C5VW3;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -806,7 +896,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kanyanee.Saving-Life-Final";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kanyanee.Saving-Life-Final777";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

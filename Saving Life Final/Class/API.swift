@@ -26,6 +26,6 @@ var yPoint: Double?
 var ref: DatabaseReference!
 var UID:String = ""
 //let SeniorUID = Auth.auth().currentUser!.uid
-let SeniorUID = "0"
-//let SeniorUID = Auth.auth().currentUser!.uid
+//let SeniorUID = "0"
+let SeniorUID = Auth.auth().currentUser!.uid
 let CaregiverUID = Auth.auth().currentUser!.uid

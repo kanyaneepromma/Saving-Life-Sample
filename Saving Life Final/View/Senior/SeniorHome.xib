@@ -21,7 +21,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iCON2" translatesAutoresizingMaskIntoConstraints="NO" id="IaP-r0-tW9">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2453" translatesAutoresizingMaskIntoConstraints="NO" id="IaP-r0-tW9">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <constraints>
@@ -59,6 +59,9 @@
                                 <constraint firstAttribute="width" secondItem="kCk-W0-zRa" secondAttribute="height" multiplier="1:1" id="m72-vL-8TT"/>
                             </constraints>
                             <state key="normal" image="icons8-qr-code-500"/>
+                            <connections>
+                                <action selector="qrBTN:" destination="-1" eventType="touchUpInside" id="ZHj-qi-NwK"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -93,6 +96,9 @@
                             <color key="value" red="0.38668811320000002" green="0.79304122919999998" blue="0.98248833420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="logoutBTN:" destination="-1" eventType="touchUpInside" id="Wgc-1y-FU1"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXq-BL-Lf5" customClass="PMSuperButton" customModule="PMSuperButton">
                     <rect key="frame" x="0.0" y="771" width="125" height="125"/>
@@ -108,6 +114,9 @@
                             <color key="value" red="0.38668811320000002" green="0.79304122919999998" blue="0.98248833420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="settingBTN:" destination="-1" eventType="touchUpInside" id="JbL-BC-hxp"/>
+                    </connections>
                 </button>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mascot_Transparent" translatesAutoresizingMaskIntoConstraints="NO" id="Xbk-af-Bbl">
                     <rect key="frame" x="87" y="656" width="240" height="240"/>
@@ -139,9 +148,9 @@
         </view>
     </objects>
     <resources>
+        <image name="2453" width="5000" height="5000"/>
         <image name="IMG_8850" width="300" height="212"/>
         <image name="Mascot_Transparent" width="1786" height="2082"/>
-        <image name="iCON2" width="500" height="500"/>
         <image name="icons8-camera-500" width="500" height="500"/>
         <image name="icons8-exit-512" width="512" height="512"/>
         <image name="icons8-qr-code-500" width="500" height="500"/>

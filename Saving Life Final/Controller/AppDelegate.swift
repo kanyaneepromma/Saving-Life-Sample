@@ -20,10 +20,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
+        /*
         window?.makeKeyAndVisible()
-        window?.rootViewController = UINavigationController(rootViewController: SeniorHome())
+        window?.rootViewController = UINavigationController(rootViewController: Welcome())*/
         //firebase config
         FirebaseApp.configure()
+        //save state
+        let def = UserDefaults.standard
+        let senior_is_authenticated = def.bool(forKey: "Senior_is_authenticated") // return false if not found or stored value
+        let care_is_authenticated = def.bool(forKey: "Caregiver_is_authenticated")
+        if senior_is_authenticated == true{
+            // user logged in
+            window?.rootViewController = UINavigationController(rootViewController: SeniorHome() )
+            window?.makeKeyAndVisible() // show window
+        }
+        else if care_is_authenticated == true{
+            window?.rootViewController = UINavigationController(rootViewController: CareHome() )
+            window?.makeKeyAndVisible()
+        }
+        else{
+            window?.rootViewController = UINavigationController(rootViewController: Welcome() )
+            window?.makeKeyAndVisible()
+        }
         return true
     }
 

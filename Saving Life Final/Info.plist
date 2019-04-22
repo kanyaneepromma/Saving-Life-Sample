@@ -2,23 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationUsageDescription</key>
-	<string>Use for location</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Use for location</string>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
-	<key>CFBundleDisplayName</key>
-	<string></string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>เพื่อนำรูปมาตั้งเป็นโปร์ไฟล์สวย ๆ จ้า</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>data without a usage description. The app&apos;s Info.plist must contain both “NSLocationAlwaysAndWhenInUseUsageDescription” and</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>data without a usage description. The app&apos;s Info.plist must contain both “NSLocationAlwaysAndWhenInUseUsageDescription” and</string>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>data without a usage description. The app&apos;s Info.plist must contain both “NSLocationAlwaysAndWhenInUseUsageDescription” and</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -44,8 +37,27 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>data without a usage description. The app&apos;s Info.plist must contain both “NSLocationAlwaysAndWhenInUseUsageDescription” and</string>
+	<key>NSLocationUsageDescription</key>
+	<string>data without a usage description. The app&apos;s Info.plist must contain both “NSLocationAlwaysAndWhenInUseUsageDescription” and</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>data without a usage description. The app&apos;s Info.plist must contain both “NSLocationAlwaysAndWhenInUseUsageDescription” and</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>เพื่อนำรูปมาตั้งเป็นโปร์ไฟล์สวย ๆ จ้า</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
