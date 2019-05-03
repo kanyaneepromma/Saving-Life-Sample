@@ -16,7 +16,6 @@ struct API {
     static let Estimote_API_appID: String = "Estimote_API_appID"
     static let Estimote_API_appToken: String = "Estimote_API_appToken"
     static let Estimote_API_locaionID: String = "Estimote_API_locaionID"
-    //static let Estimote_API_locaionID: String = "me-bor" 7026800
     
 
 }
